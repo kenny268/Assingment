@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(38, 38, 112);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(151, 145, 52);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.7;
+}
+
+footer p {
+    margin: 0;
+}
+.home{
+    background-color: #0c0c0c79;
+}
+.home p{
+    margin: 63px 56px 32px 38px;
+    font-size: 2em;
+    color:white;
+}
+.wrapper{
+    background:linear-gradient(rgba(88, 104, 104, 0.377),rgb(41, 37, 37)),url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 0px;
+    padding: 25px;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.header h1{
+    font-size: 2.4em;
+    color: rgb(16, 16, 199);
+}
+.header img{
+    width: 3em;
+}
+.about-us{
+    margin-top: 12px;
+    margin-left: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.about-us div{
+    width:30%;
+}
+.about-us div p{
+    font-size: 1.2em;
+}
+
+.blog{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog .name{
+    font-size: 2em;
+}
+.blog .img{
+
+    width:35%;
+    height: 250px;
+
+}
+
+.blog .desc{
+    font-size: 1.6em;
+}
+.gallery{
+    
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 35px;
+
+}
+.gallery a{
+    text-decoration: none;
+    width: 40%;
+    padding: 20px;
+}
+.gallery a:hover{
+    transform-origin: 2px;
+}
+
+.gallery a img{
+    border-radius: 4%;
+    height: 250px;
+    box-shadow: 6px 0px 9px 0px black;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    justify-content: space-around;
+  
+    padding: 4px;
+
+}
+.contact h2{
+    padding: 20px;
+    color: blue;
+    
+}
+.contact div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact div a{
+    text-decoration: none;
+}
